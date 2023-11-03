@@ -1,0 +1,29 @@
+body{
+    margin: 2% !important;
+}
+
+#resultado{
+    box-shadow: 1cm !important;
+    align-items: center !important;
+}
+
+#titulo{
+text-align: center;
+margin: 1%;
+}
+
+.badge-secondary{
+color: gray !important;
+}
+
+#buscador{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    color: cadetblue;
+    font-size: 25px;
+    text-align: center;
+}
+

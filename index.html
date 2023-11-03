@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Buscar</a>
+            <a class="nav-item nav-link" href="#">Ubicacion ACTUAL</a>
+          </div>
+        </div>
+          
+    </nav>
+      
+    <h1 id="titulo">Weather <span class="badge badge-secondary">APP</span></h1>
+
+
+   
+  
+      <input class="form-control mr-sm-2" placeholder="Search" aria-label="Search" id="lugar">
+      <button class="btn btn-outline-success my-2 my-sm-5" id="buscar">Search</button>
+    
+
+      <div class="card" style="width: 18rem;">
+        <img id="imagen" src="" class="card-img-top">
+        <div class="card-body">
+          <p id="card-main" class="card-text"></p>
+        </div>
+      </div>
+
+    <div id="results1"></div>
+
+
+
+
+    
+    <script src="./jquery-2.1.4.min.js"></script>
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+
+  </body>
+</html>
