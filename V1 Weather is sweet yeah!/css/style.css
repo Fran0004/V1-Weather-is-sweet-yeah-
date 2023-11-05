@@ -1,0 +1,41 @@
+body{
+    margin: 2% !important;
+}
+#titulo{
+text-align: center;
+margin: 1%;
+font-size:80px;
+}
+.badge-secondary{
+color: gray !important;
+}
+
+#buscador{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    color: cadetblue;
+    font-size: 25px;
+    text-align: center;
+}
+#carta{
+    margin: 1%;
+    box-shadow: rgba(0, 132, 255, 1);
+    
+}
+#cartas{
+    display: none;
+    margin: 4%;
+}
+img{
+    width: 100%;
+}
+#cartasola{
+    display: none;
+}
+#busqueda  {
+    display: none;
+}
+
